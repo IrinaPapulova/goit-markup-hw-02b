@@ -63,7 +63,7 @@ h1 {
   box-shadow: rgba(0, 0, 0, 0.15);
 }
 
-.logo {
+.logows {
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
@@ -73,7 +73,7 @@ h1 {
   text-transform: uppercase;
   text-decoration: none;
 }
-header .logo {
+header .logows {
   color: #2e2f42;
 }
 
@@ -84,7 +84,7 @@ footer {
   background-color: #2e2f42;
   color: #f4f4fd;
 }
-footer .logo {
+footer .logows {
   color: #f4f4fd;
 }
 
