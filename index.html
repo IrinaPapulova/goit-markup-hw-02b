@@ -4,44 +4,67 @@
     <meta charset="utf-8" />
     <meta name="discription" content="Effective Solutions for Your Business" />
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
 
   <body>
     <header>
       <nav>
-        <a href="./index.html">WebStudio</a>
+        <a class="logo" href="./index.html">
+          <span class="web">Web</span>Studio</a
+        >
         <ul>
           <li>
-            <a href="#Studio">Studio</a>
+            <a class="nav-list" href="#Studio">Studio</a>
           </li>
           <li>
-            <a href="#Portfolio">Portfolio</a>
+            <a class="nav-list" href="#Portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="">Contacts</a>
+            <a class="nav-list" href="">Contacts</a>
           </li>
         </ul>
       </nav>
 
-      <address>
+      <address class="nav-adress">
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li>
+            <a class="address-link-mail" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="address-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
 
     <main>
-      <section>
+      <section class="hero">
         <!--Hero image section-->
         <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <button class="button-order" type="button">Order Service</button>
       </section>
 
       <!-- TODO Hide section title Our values-->
-      <section>
-        <h2 id="Studio">Our values</h2>
+      <section class="section-our-values">
+        <h2 class="title-our-values" id="Studio">Our values</h2>
         <ul>
           <li>
             <h3>Strategy</h3>
@@ -78,7 +101,7 @@
       </section>
 
       <!--Our Team-->
-      <section>
+      <section class="section-our-team">
         <h2>Our Team</h2>
 
         <ul>
@@ -125,14 +148,16 @@
       </section>
 
       <!--Our Portfolio-->
-      <section>
-        <h2 id="Portfolio">Our Portfolio</h2>
+      <section class="section-portfolio">
+        <h2 class="title-portfolio" id="Portfolio">Our Portfolio</h2>
         <!--The first block of section  Portfolio-->
         <ul>
           <li>
             <img
               src="./images/portfolioimages/img-bank-app.jpg"
-              alt="form and steps for registration at app"
+              alt="form and
+            steps for registration at app"
+              width="360"
             />
             <h3>Banking App</h3>
             <p>App</p>
@@ -142,6 +167,7 @@
             <img
               src="./images/portfolioimages/img-cashlass-payment.jpg"
               alt="telefone and QR code on the display"
+              width="360"
             />
             <h3>Cashless Payment</h3>
             <p>Marketing</p>
@@ -151,6 +177,7 @@
             <img
               src="./images/portfolioimages/img-meditation-app.jpg"
               alt="return to normalcy-app"
+              width="360"
             />
             <h3>Meditaion App</h3>
             <p>App</p>
@@ -160,13 +187,21 @@
         <!--The second block of section  Portfolio-->
         <ul>
           <li>
-            <img src="./images/portfolioimages/img-taxy-service.jpg" alt=" " />
+            <img
+              src="./images/portfolioimages/img-taxy-service.jpg"
+              alt="app in gatget fo taxi-driver "
+              width="360"
+            />
             <h3>Taxi Service</h3>
             <p>Marketing</p>
           </li>
 
           <li>
-            <img src="./images/portfolioimages/img-screen-illustr.jpg" alt="" />
+            <img
+              src="./images/portfolioimages/img-screen-illustr.jpg"
+              alt="a moon as a design on screen"
+              width="360"
+            />
             <h3>Screen Illustrations</h3>
             <p>Design</p>
           </li>
@@ -174,7 +209,8 @@
           <li>
             <img
               src="./images/portfolioimages/img-onl-cources.jpg"
-              alt="telefone and QR code on the display"
+              alt="a young womman study online at telephone"
+              width="360"
             />
             <h3>Online Courses</h3>
             <p>Marketing</p>
@@ -184,7 +220,9 @@
     </main>
 
     <footer>
-      <a href="./index.html">WebStudio</a>
+      <a class="logo" href="./index.html">
+        <span class="web">Web</span>Studio</a
+      >
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
